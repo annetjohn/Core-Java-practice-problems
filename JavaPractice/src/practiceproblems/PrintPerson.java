@@ -6,7 +6,7 @@ public class PrintPerson {
 		// TODO Auto-generated method stub
 		int i = 10; 
         System.out.println("Printing details of the person.");
-        System.out.println(i);
+      
         
 	}
 

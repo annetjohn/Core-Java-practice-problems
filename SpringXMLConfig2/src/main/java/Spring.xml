@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                   http://www.springframework.org/schema/context
+                   http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+                   
+           <!--  <context:component-scan base-package="com.n2s.SpringXMLConfig2"></context:component-scan>  -->
+                   
+            <!-- creating a bean to make this program loosely coupled.     
+            <bean id = "Coffee" class = "com.n2s.SpringXMLConfig2.Coffee" /> 
+            <bean id = "Tea" class = "com.n2s.SpringXMLConfig2.Tea" /> 
+            --> 
+            
+            <bean id = "brd" class = "com.n2s.SpringXMLConfig2.Brand">
+            <!-- setter method  -->
+            <!-- <property name="name" value = "bru"></property>
+            <property name="price" value = "200"></property> -->
+            <!-- constructor method  -->
+            <constructor-arg index = "0" value = "bru"></constructor-arg>
+            <constructor-arg index = "1" value = "200"></constructor-arg>
+            
+            </bean>
+                     
+      </beans>   

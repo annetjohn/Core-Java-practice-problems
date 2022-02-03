@@ -60,8 +60,7 @@ class Car extends Vehicle {
     void closeTrunk() {
         System.out.println("Trunk is closing...");
 
-        System.out.println("The speed of the Car is (using super keyword): "
-                + super.getSpeed()); //calling super class method
+        System.out.println("The speed of the Car is (using super keyword): " + super.getSpeed()); //calling super class method
     }
 
     // This is the constructor that would call the superclass constructor
